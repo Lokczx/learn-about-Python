@@ -1,0 +1,11 @@
+def main():
+    print("输入一组数,让他们进行比较")
+    n = eval(input("有个数要比较："))
+    MAX = eval(input("请输入一个数："))
+    for i in range(n-1):
+        x = eval(input("请输入一个数："))
+        if x > MAX:
+            MAX = x
+    print("最大值是",MAX)
+main()
+    
